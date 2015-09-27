@@ -6,7 +6,9 @@ shinyUI(
                tabPanel("Plot",
                         sidebarLayout(
                             sidebarPanel(
-                                p('Pick a COE category & specify date range to plot.'),
+                                p("COE analyzer is a data product to study & predict COE price trends. Certificate of Entitlement(abbrv COE) is Singapore's policy tool to manage motor vehicle population growth. One has to bid for a COE and register it together with a new car; used cars are sold together with the registered COE. Motor vehicles are categorized into 5 COE categories."),
+                                
+                                p('Pick a COE category & specify date range to view price trends.'),
                                 p('View the  data in "Data Table" tab'),
                                 
                                 radioButtons("coeCatInput", "COE Category",
